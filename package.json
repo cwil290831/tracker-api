@@ -8,13 +8,17 @@
     "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "node": "10.x",
+    "npm": "6.x"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.ccs.neu.edu/NEU-CS5610-SU21/CiaraWilliams-Book.git"
+    "url": "https://github.com/cwil290831/tracker-api.git"
   },
   "author": "ciara williams",
   "license": "ISC",
-  "homepage": "https://github.ccs.neu.edu/NEU-CS5610-SU21/CiaraWilliams-Book",
+  "homepage": "https://github.com/cwil290831/tracker-api.git",
   "dependencies": {
     "apollo-server-express": "^2.25.1",
     "body-parser": "^1.19.0",
